@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2418090957
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sceneone/one/button.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: sceneone/one/cube.unity3d
+      Dependencies: {}
