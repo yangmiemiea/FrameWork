@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainData : MonoBehaviour {
+public class MainData : BaseData {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public override void __init()
+    {
+        
+    }
+
+    public override void __delete()
+    {
+        
+    }
 }

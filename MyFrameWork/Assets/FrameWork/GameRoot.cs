@@ -25,7 +25,7 @@ public class GameRoot : BaseManager<GameRoot>
 
     protected override void OnApplicationQuit()
     {
-
+        ModulesControl.__delete();
     }
 
     protected override void OnDestroy()

@@ -29,15 +29,16 @@ public class BaseCtrl {
         this.__init();
     }
 
-    public virtual void __init()
-    {
+    public virtual void __init() { }
 
-    }
+    public virtual void __delete() { }
 
     public void DeleteMe()
     {
-        instance = null;
+        __delete();
     }
+
+   
 
     /// <summary>
     /// 绑定全局事件

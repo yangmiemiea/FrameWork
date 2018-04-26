@@ -16,4 +16,15 @@ public class MainCtrl : BaseCtrl {
         selfData = new MainData();
         selfView = new MainView(ViewName.MainView);
     }
+
+    public override void __delete()
+    {
+        Instance = null;
+
+        if (selfData != null)
+            selfData.Release();
+
+        if (selfView != null)
+            selfView.Release();
+    }
 }

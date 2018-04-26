@@ -118,6 +118,7 @@
     <Compile Include="Assets\FrameWork\Tools\Tool.cs" />
     <Compile Include="Assets\FrameWork\UI\Base\BaseCtrl.cs" />
     <Compile Include="Assets\FrameWork\UI\Base\BaseData.cs" />
+    <Compile Include="Assets\FrameWork\UI\Base\BaseRender.cs" />
     <Compile Include="Assets\FrameWork\UI\Base\BaseView.cs" />
     <Compile Include="Assets\FrameWork\UI\Bind\EventBind.cs" />
     <Compile Include="Assets\FrameWork\UI\Bind\EventBindClick.cs" />
@@ -125,6 +126,8 @@
     <Compile Include="Assets\FrameWork\UI\Bind\VariableBindActive.cs" />
     <Compile Include="Assets\FrameWork\UI\Bind\VariableBindText.cs" />
     <Compile Include="Assets\FrameWork\UI\Game.cs" />
+    <Compile Include="Assets\FrameWork\UI\Other\ToggleActivator.cs" />
+    <Compile Include="Assets\FrameWork\UI\Other\UIPrefabLoader.cs" />
     <Compile Include="Assets\FrameWork\UI\Table\EventTable.cs" />
     <Compile Include="Assets\FrameWork\UI\Table\NameTable.cs" />
     <Compile Include="Assets\FrameWork\UI\Table\VariableTable.cs" />
@@ -132,6 +135,9 @@
     <Compile Include="Assets\MainView\MainCtrl.cs" />
     <Compile Include="Assets\MainView\MainData.cs" />
     <Compile Include="Assets\MainView\MainView.cs" />
+    <Compile Include="Assets\MainView\Tab1View.cs" />
+    <Compile Include="Assets\MainView\Tab2View.cs" />
+    <Compile Include="Assets\MainView\Tab3View.cs" />
     <Compile Include="Assets\UITest.cs" />
   </ItemGroup>
   <ItemGroup>
